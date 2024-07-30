@@ -1,0 +1,26 @@
+html, body {
+  display: flex;
+  height: 100vh;
+  background-color: #312e2b;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.chessboard{
+  display:grid;
+  grid-template-columns: repeat(8, 4vw);
+  grid-template-rows: repeat(8, 4vw);
+}
+
+.black {
+  background-color: #878778;
+}
+
+.white {
+  background-color: beige;
+}
+
+img {
+  width: 4vw;
+}
